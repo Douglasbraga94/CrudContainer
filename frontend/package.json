@@ -1,0 +1,62 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@handsontable/vue3": "^11.1.0",
+    "ag-grid-community": "^27.1.0",
+    "ag-grid-vue3": "^27.1.0",
+    "axios": "^0.26.1",
+    "bootstrap": "^5.1.3",
+    "bootstrap-vue": "^2.21.2",
+    "bootstrap-vue-3": "^0.1.9",
+    "core-js": "^3.8.3",
+    "datatables.net": "^1.11.5",
+    "datatables.net-dt": "^1.11.5",
+    "font-awesome": "^4.7.0",
+    "handsontable": "^11.1.0",
+    "jenesius-vue-modal": "^1.5.0",
+    "jquery": "^3.6.0",
+    "sweetalert2": "^11.4.8",
+    "vue": "^3.2.31",
+    "vue-class-component": "^8.0.0-rc.1",
+    "vue-router": "^4.0.14",
+    "vue-sweetalert2": "^5.0.2",
+    "vue3-table-lite": "^1.1.8-2",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
